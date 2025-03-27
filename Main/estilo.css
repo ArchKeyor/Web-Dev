@@ -1,0 +1,22 @@
+html{
+    padding: 0; /* Espaço DENTRO da borda do elemento, ou seja, é o espaço entre a imagem e a moldura.*/
+    margin: 0;/* Espaço FORA da borda do elemento,ou seja, é o espaço entre a imagem e a parede.*/
+    width: 100%;
+    height: auto;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    /*o % e o vh simbolizam que o bloco ocupará todo o espaço*/
+    width: 100%;
+    height: auto;
+    background-color: rgb(156, 0, 0);
+
+
+}
+
+.j1{
+    text-align: center;
+}

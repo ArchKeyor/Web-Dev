@@ -11,13 +11,63 @@ body{
     padding: 0;
     /*o % e o vh simbolizam que o bloco ocupará todo o espaço*/
     width: 100%;
-    height: auto;
-    background-color: rgb(156, 0, 0);
-
+    height: 100vh;
+    background-image:linear-gradient(to right,rgb(11, 72, 97),rgb(14, 83, 110));
+    background-size: cover;
+    display: table;
 
 }
 
 .j1{
     text-align: center;
+}
+
+.nav{
+    height: auto;
+    width: 100%;
+}
+ul{
+   margin:  auto; 
+   width: 100%;
+   height: 50px;
+   list-style: none;
+   background: rgba(0,0,0,0.2);
+} 
+
+li{
+    margin: 26px;
+    display: inline-block;
+}
+li a{
+    
+    text-decoration:none;
+    color:#FFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 21px;
+    transition: 1s;
+    padding: 20px 30px;
+}
+
+li a:hover{
+    transition: 0.5s;
     color: black;
+    background: rgba(255,255,255,0.2);
+
+}
+
+.contaierTITLE{
+    width: 300px;
+    height: auto;
+    background-color: lightgray;
+}
+
+.titleIMG{
+    
+    position: absolute;
+    top:15px;
+    left:18px;
+    width: 15%;
+    height: auto;
+    object-fit: contain;
 }

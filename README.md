@@ -1,2 +1,2 @@
-# HaloWiki
-Este repositório é voltado para o estudo do HTML, no caso, faremos uma Halo Wiki da UNSC
+# Web Development
+This repository is for my study of Web Development. Here, all my projects on the subject will be stored.
